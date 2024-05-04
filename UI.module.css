@@ -1,0 +1,32 @@
+.container{
+    position: absolute;
+    top:15%;
+    left:35%;
+    width:25em;
+    min-height: 60vh;
+    background-color: rgb(216, 213, 213);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.item{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin:1em 0px;
+}
+.task{
+    border:1px solid black;
+    border-radius: 8px;
+    margin-left:8px;
+    height: 1.5em;
+}
+.btn{
+    background-color: rgb(36, 36, 225);
+    color:white;
+    padding:5px;
+    width:3em;
+    height:2em;
+    border-radius: 8px;
+    margin-right: 8px;
+}
